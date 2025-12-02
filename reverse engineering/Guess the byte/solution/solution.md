@@ -1,4 +1,8 @@
-Disassembly of the main function reveals a loop iterating from 0 to 4. During each iteration, the program loads a random value. To intercept these values, we set a breakpoint within the loop and monitored register contents. This debugging approach ultimately revealed the flag.
+Disassembly of the main function reveals a loop iterating from 0 to 4. During each iteration, the program loads a random value. 
+
+To intercept these values, we set a breakpoint within the loop and monitored register contents. 
+
+This debugging approach ultimately revealed the flag.
 
 <img width="959" height="709" alt="5" src="https://github.com/user-attachments/assets/7a0fe71b-a885-490e-b8e7-05e92d165e30" />
 
